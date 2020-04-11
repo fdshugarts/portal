@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+/**
+*
+* -------------------------------------------
+*
+* Template : Ultimate Tabs for Bootstrap 4+ Framework
+* Author : thecodude
+* Author URI : http://thecodude.com
+*
+* ------------------------------------------- 
+*
+*/
+
+
+/*-----------------------------------
+    Basic Style 
+--------------------------------------*/
+body {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    font-size: 14px;
+    color: #777;
+}
+figure,
+p,
+address {
+    margin: 0;
+}
+p {
+    color: #777;
+}
+iframe,
+img {
+    border: 0;
+}
+iframe {
+    width: 100%;
+}
+a,
+a:hover,
+a:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #252525;
+}
+iframe .ytp-show-share-title {
+    display: none !important;
+}
+main > section {
+    position: relative;
+}
+.btn {
+    border-radius: 0;
+    border: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+.btn-blue {
+    background-color: rgba(0, 158, 227, 0.78);
+    box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
+    padding: 15px 55px;
+    color: #fff;
+}
+.btn-border {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 12px 35px;
+}
+[class*="tcb-"] {
+    margin: 6px 4px;
+}
+.table>tbody>tr>td {
+    border: 0;
+}
+.color-red {
+    color: red;
+}
+.bg-blue {
+    background-color: #009EE3;
+}
+.sec-color {
+    background-color: #fafafa;
+}
+.sec-spacer {
+    padding: 100px 0;
+}
+.spacer1 {
+    height: 10px;
+}
+.spacer2 {
+    height: 20px;
+}
+.spacer3 {
+    height: 30px;
+}
+.spacer4 {
+    height: 40px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.pb-100 {
+    padding-bottom: 100px;
+}
+.title {
+    position: relative;
+    font-size: 24px;
+    line-height: 36px;
+    color: #212121;
+    margin: 0;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+.title:after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    background: #212121;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+.title.white {
+    color: white;
+}
+.text-center.title:before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.text-center.title:after {
+    left: calc(50% + 10px);
+    transform: translateX(-50%);
+}
+.bg-img {
+    background-image: url(../img/bg-img.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.bg-img1 {
+    background-image: url(../img/b1.jpg);
+}
+.tc-element-list-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.tc-element-list-menu li a {
+    position: relative;
+    display: block;
+    padding: 20px;
+    font-size: 17px;
+    background: rgba(0, 0, 0, 0.05);
+    width: 100%;
+    color: #999;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.tc-element-list-menu li a:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: #888;
+}
+.tc-element-list-menu li a .badge {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    border-radius: 4px;
+    background: #ef1c2e;
+    font-size: 11px;
+    padding: 5px 9px 4px 9px;
+    letter-spacing: 1px;
+}
+.tc-element-list-menu li a .badge.update {
+    background: #4CAF50;
+}
+.tc-element-list-menu li a .badge.hot {
+    background: #f39c12;
+}
+.title .badge {
+    border-radius: 4px;
+    background: #ef1c2e;
+    font-size: 11px;
+    padding: 5px 9px 4px 9px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+    .row [class*="col-"]:nth-child(n+2) [class*="testimonial-"] {
+        margin-top: 60px;
+    }
+}
+
+/*--------------------------------------
+    Header
+----------------------------------------*/
+.header .container {
+    padding: 190px 0;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.header h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 20px;
+}
+.header h3 {
+    color: #bbb;
+    font-weight: 400;
+}
+
+/*--------------------------------------
+    Footer
+----------------------------------------*/
+footer {
+    background-color: #232323;
+}
+footer .container {
+    padding: 30px 30px 25px 30px;
+    position: relative;
+}
+footer * {
+    color: #aaa;
+}
+footer a:hover {
+    color: #fff;
+}
+footer .totop {
+    float: right;
+}
+
+@media (max-width: 767px) {
+    .header .container {
+        padding: 100px 35px;
+    }
+}
