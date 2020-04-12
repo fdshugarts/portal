@@ -54,7 +54,7 @@ ul.rtabs li.selected a
     color:#000;
     font-weight:normal;
     border-color:#DDD; /*color #1*/
-    background:white; /*color #2*/
+    background:red; /*color #2*/
     z-index:3;
 }   
         
