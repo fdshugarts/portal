@@ -2,7 +2,7 @@ body {
   padding-top: 59px;
   background-color: #000;
   font-family: Roboto, sans-serif;
-  color: #fff;
+  color: #d7d9de;
   font-size: 14px;
   line-height: 20px;
 }
@@ -215,7 +215,7 @@ p {
 .section.hero {
   padding-top: 5px;
   padding-bottom: 135px;
-  background-color: transparent;
+  background-color: #fcfcfc;
   color: #fcfcfc;
   text-align: center;
 }
@@ -802,9 +802,9 @@ p {
   height: 300px;
   max-height: 300px;
   min-height: 300px;
-  border-right: 2px none #5f6266;
-  border-bottom: 2px none #5f6266;
+  border: 1px none #000;
   background-color: #fcfcfc;
+  box-shadow: 1px 1px 3px 1px #d7d9de;
   color: #fcfcfc;
 }
 
@@ -1088,7 +1088,7 @@ p {
   background-color: #d7d9de;
   font-family: 'Crimson Text', sans-serif;
   color: #1d1f21;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 26px;
   font-weight: 700;
 }
@@ -1098,13 +1098,13 @@ p {
   border-bottom: 1px dotted #000;
   font-family: 'Crimson Text', sans-serif;
   color: #1d1f21;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 26px;
   font-weight: 600;
 }
 
 .list-4 {
-  margin: 24px 40px 0px;
+  margin: 16px 40px 0px;
   border: 1px none #5f6266;
   border-radius: 5px;
   box-shadow: 1px 1px 3px 2px #2c2f30;
@@ -1114,7 +1114,7 @@ p {
   margin-top: 4px;
   font-family: 'Crimson Text', sans-serif;
   color: #1d1f21;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 26px;
   font-weight: 600;
 }
@@ -1124,7 +1124,7 @@ p {
   border-bottom: 1px dotted #000;
   font-family: 'Crimson Text', sans-serif;
   color: #1d1f21;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 26px;
   font-weight: 600;
 }
@@ -1568,6 +1568,7 @@ p {
 
 .tabs-content {
   background-color: #fcfcfc;
+  box-shadow: 1px 1px 3px 0 #5f6266;
   color: transparent;
 }
 
