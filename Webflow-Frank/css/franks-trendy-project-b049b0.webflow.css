@@ -213,9 +213,9 @@ p {
 }
 
 .section.hero {
-  padding-top: 40px;
+  padding-top: 5px;
   padding-bottom: 135px;
-  background-color: #d7d9de;
+  background-color: transparent;
   color: #fcfcfc;
   text-align: center;
 }
@@ -783,6 +783,7 @@ p {
 
 .body {
   padding-top: 0px;
+  background-color: transparent;
 }
 
 .image {
@@ -801,8 +802,8 @@ p {
   height: 300px;
   max-height: 300px;
   min-height: 300px;
-  border-right: 2px solid #5f6266;
-  border-bottom: 2px solid #5f6266;
+  border-right: 2px none #5f6266;
+  border-bottom: 2px none #5f6266;
   background-color: #fcfcfc;
   color: #fcfcfc;
 }
@@ -1530,6 +1531,7 @@ p {
 .columns-8 {
   margin-left: 0px;
   padding-left: 40px;
+  border-top: 1px dotted #000;
 }
 
 .text-block-17 {
@@ -1549,6 +1551,7 @@ p {
 
 .html-embed {
   margin-top: 20px;
+  border: 1px dotted #000;
   font-family: 'Crimson Text', sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -1556,6 +1559,7 @@ p {
 
 .html-embed-2 {
   margin-top: 20px;
+  border: 1px dotted #000;
   font-family: 'Crimson Text', sans-serif;
   color: #1d1f21;
   font-size: 18px;
@@ -1621,6 +1625,8 @@ p {
 }
 
 .text-block-18 {
+  padding-top: 10px;
+  padding-left: 10px;
   font-family: 'Crimson Text', sans-serif;
   color: #1d1f21;
   font-size: 20px;
@@ -1723,6 +1729,10 @@ p {
   height: auto;
   -o-object-fit: fill;
   object-fit: fill;
+}
+
+.columns-10 {
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 991px) {
