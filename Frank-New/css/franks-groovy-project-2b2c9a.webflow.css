@@ -60,13 +60,14 @@
 .html-embed {
   margin-top: 20px;
   border: 1px dotted #000;
+  background-color: transparent;
   font-family: 'Crimson Text', sans-serif;
   font-size: 18px;
   font-weight: 600;
 }
 
 .list-item-18 {
-  border-style: dotted;
+  border-style: none;
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.52);
   font-family: 'Crimson Text', sans-serif;
@@ -187,6 +188,8 @@
 
 .heading-6 {
   margin-top: 20px;
+  font-family: 'Crimson Text', sans-serif;
+  color: #000;
   font-weight: 700;
   text-align: left;
 }
@@ -218,6 +221,7 @@
 .heading-11 {
   margin-top: 24px;
   font-family: 'Crimson Text', sans-serif;
+  color: #000;
   font-weight: 700;
   text-align: left;
   text-decoration: underline;
@@ -232,6 +236,7 @@
 .heading-10 {
   margin-top: 20px;
   font-family: 'Crimson Text', sans-serif;
+  color: #000;
   font-weight: 700;
   text-align: left;
 }
