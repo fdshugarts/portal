@@ -121,7 +121,7 @@
 .heading-7 {
   margin-top: 20px;
   font-family: 'Crimson Text', sans-serif;
-  color: #1d1f21;
+  color: #000;
   font-size: 32px;
   line-height: 36px;
   font-weight: 700;
@@ -190,6 +190,8 @@
   margin-top: 20px;
   font-family: 'Crimson Text', sans-serif;
   color: #000;
+  font-size: 32px;
+  line-height: 36px;
   font-weight: 700;
   text-align: left;
 }
@@ -219,12 +221,13 @@
 }
 
 .heading-11 {
-  margin-top: 24px;
+  margin-top: 20px;
   font-family: 'Crimson Text', sans-serif;
   color: #000;
+  font-size: 32px;
+  line-height: 36px;
   font-weight: 700;
   text-align: left;
-  text-decoration: underline;
 }
 
 .columns-8 {
@@ -237,6 +240,8 @@
   margin-top: 20px;
   font-family: 'Crimson Text', sans-serif;
   color: #000;
+  font-size: 32px;
+  line-height: 36px;
   font-weight: 700;
   text-align: left;
 }
